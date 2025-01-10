@@ -15,6 +15,10 @@ The following diagram shows the flow of events in the solution:
 
 ![Security Hub Prowler Integrations on AWS](./img/SecurityHubProwlerIntegrations.png)
 
+If you enjoy my projects and want to support my work, consider buying me a coffee! ☕️
+
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/V7V22V693)
+
 Prowler checks are ran from a container running on AWS Fargate which are sent to DynamoDB for persistence.
 
 This repository contains Terraform code for creating an AWS ECR repository and deploying a Docker image with SecurityHub Prowler to an ECS task using Terraform and CloudFormation code creates the supporting infrastructure for the Prowler Fargate AWS Security. 
